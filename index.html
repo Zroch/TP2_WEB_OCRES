@@ -2,17 +2,22 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
-
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
 	<body>
+	<div class="container-sm">
 		<header>
+			
 			<div class="wrapper">
+				<div class="row">
+					<div class="col-md-2">
 				<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
 				</div>
-
+					</div>
+					<div class="col-md-8">
 				<form method="POST" action="index.html">
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
@@ -20,8 +25,13 @@
 				<div class="user">
 				    <a href="#">Luke Chesser</a>
 				</div>
+					</div>
 			</div>
+				</div>
 		</header>
+
+		<div class="row">
+			<div class="col-md-2">
 		<aside>
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -31,7 +41,8 @@
 					<li><a class="top" href="#">Top Charts</a></li>
 					<li><a class="new" href="#">New Releases</a></li>
 				</ul>
-			</nav>
+			</nav> 	
+				
 			<h3>Your music</h3>
 			<nav class="music">
 				<ul class="main">
@@ -40,7 +51,9 @@
 				</ul>
 			</nav>
 		</aside>
-
+			</div>
+		
+			<div class="col-md-10">
 		<main>
 			<header>
 				<div class="name-photo">
@@ -67,11 +80,14 @@
 					</div>
 				</div>
 			</header>
+		
 			<h2>Top Album</h2>
 			<div>
 				<a class="station" href="#">Start Station</a>
 			</div>
+			<div class="row">
 			<section id="albums">
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_01.png" />
@@ -80,6 +96,8 @@
 					<div class="artist">OneRepublic</div>
 					<div class="count">17 songs</div>
 				</article>
+				</div>	
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_02.png" />
@@ -88,6 +106,8 @@
 					<div class="artist">Joshua Radin</div>
 					<div class="count">11 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_03.png" />
@@ -96,6 +116,8 @@
 					<div class="artist">Vampire Weekend</div>
 					<div class="count">12 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_04.png" />
@@ -104,6 +126,8 @@
 					<div class="artist">Imagine Dragons</div>
 					<div class="count">11 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_05.png" />
@@ -112,6 +136,8 @@
 					<div class="artist">The National</div>
 					<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_06.png" />
@@ -120,6 +146,8 @@
 					<div class="artist">OneRepublic</div>
 					<div class="count">17 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_07.png" />
@@ -128,6 +156,8 @@
 					<div class="artist">Joshua Radin</div>
 					<div class="count">11 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_08.png" />
@@ -136,6 +166,8 @@
 					<div class="artist">Vampire Weekend</div>
 					<div class="count">12 songs</div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_09.png" />
@@ -144,6 +176,8 @@
 					<div class="artist">Imagine Dragons</div>
 					<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 				</article>
+				</div>
+				<div class="col-md-2">
 				<article>
 					<figure>
 						<img src="img/album/album_10.png" />
@@ -152,7 +186,13 @@
 					<div class="artist">The National</div>
 					<div class="count">13 songs</div>
 				</article>
+				</div>
+			
 			</section>
+		</div>
 		</main>
+			</div>
+		</div>
+	</div>
 	</body>
 </html>
